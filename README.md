@@ -23,9 +23,9 @@ A **production-ready, end-to-end Machine Learning web application** that predict
 
 ## 🌐 Live Application
 
-> **https://heart-predict-abca.onrender.com**
+> **(https://heart-disease-bcdy.onrender.com/)**
 
-> ⚠️ Free tier — first visit after inactivity may take ~30 seconds to wake up (spin-down behavior).
+
 
 ---
 
