@@ -290,8 +290,3 @@ Always consult a qualified healthcare provider for any medical concerns.
 
 ---
 
-<div align="center">
-
-Made with ❤️ by **Anustup Das** | Brainware University | 2025
-
-</div>
