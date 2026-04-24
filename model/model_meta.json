@@ -1,0 +1,83 @@
+{
+  "model_name": "Gradient Boosting Classifier",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "all_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "age_thalach",
+    "hr_reserve",
+    "chol_age_ratio",
+    "bp_age_ratio",
+    "exang_oldpeak",
+    "ca_thal",
+    "cp_exang",
+    "age_sq",
+    "oldpeak_sq",
+    "thalach_sq",
+    "ca_oldpeak",
+    "thal_exang",
+    "high_risk_age",
+    "severe_bp",
+    "low_hr",
+    "multi_vessel",
+    "reversible_def",
+    "asymptomatic_cp"
+  ],
+  "accuracy": 0.7645,
+  "roc_auc": 0.8437,
+  "f1_score": 0.7942,
+  "decision_threshold": 0.44,
+  "confusion_matrix": [
+    [
+      620,
+      298
+    ],
+    [
+      173,
+      909
+    ]
+  ],
+  "feature_importances": {
+    "age": 0.026744,
+    "sex": 0.032766,
+    "cp": 0.076102,
+    "trestbps": 0.054812,
+    "chol": 0.059197,
+    "fbs": 0.003101,
+    "restecg": 0.003457,
+    "thalach": 0.029327,
+    "exang": 0.034156,
+    "oldpeak": 0.027117,
+    "slope": 0.004657,
+    "ca": 0.050234,
+    "thal": 0.042188
+  },
+  "train_samples": 8000,
+  "test_samples": 2000,
+  "disease_prevalence": 0.541
+}
